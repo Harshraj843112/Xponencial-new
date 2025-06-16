@@ -2,7 +2,6 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
-
 import AiimsDelhi from "../img/AIIMS_New_Delhi.png";
 import Sharda from "../img/sharda.jpg";
 import Amazon from "../img/Amazon.png";
@@ -12,7 +11,7 @@ import GangaRam from "../img/GangaRam.png";
 import Kailash from "../img/kailashHospital.jpeg";
 import Jodhpur from "../img/Jodhpur.png";
 import Rishikesh from "../img/Rishikesh.png";
-import Psri from "../img/Psri.png";
+import SarvodyaHospital from "../img/sarvodaya_Hospital.png";
 
 // Reusable Component for Logo Items
 const ClientLogo = ({ src, alt }) => (
@@ -29,7 +28,7 @@ const OurClient = () => {
     { src: Rishikesh, alt: "AIIMS Rishikesh" },
     { src: Amazon, alt: "Amazon Pharmacy" },
     { src: GangaRam, alt: "Sir Ganga Ram Hospital" },
-    { src: Psri, alt: "PSRI Hospital" },
+    { src: SarvodyaHospital, alt: "Sarvodya Hospital" },
    
     { src: Sharda, alt: "Sharda Hospital" },
     { src: Kailash, alt: "Redcliffe Diagnostics" },
