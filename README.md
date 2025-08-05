@@ -1,7 +1,7 @@
 # Gudmed Frontend Deployment Guide
 
 # 1. SSH into the Server
-ssh root@46.202.164.138
+ssh root@43.204.53.220
 
 # 2. Navigate to the Project Directory
 cd /home/ubuntu/gudmed.in/gudmed-site
