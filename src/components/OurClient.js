@@ -41,7 +41,7 @@ const OurClient = () => {
       <div className="text-center mb-12">
         <h2 className="text-5xl font-semibold tracking-wide mb-4 space-x-4">
           <span className="text-[#2E4168] mr-2">Our</span>
-          <span className="text-[#2E4168]">Clientele</span>
+          <span className="text-[#2E4168]">Clients</span>
         </h2>
       </div>
 

@@ -1,3 +1,19 @@
+# New Deployment method 
+This project now uses a new deployment workflow with AWS services. When changes are pushed to the dev branch, a webhook will trigger an AWS CodeBuild build process, automating the deployment pipeline.
+
+Key components of the deployment setup:
+
+1.The website is hosted on AWS S3 for static content delivery.
+
+2.CloudFront is used for fast, secure content delivery with low latency.
+
+3.The entire process is integrated into a CI/CD pipeline with AWS CodeBuild, ensuring automated deployments without downtime.
+
+
+
+
+
+<!-- Old Deployment method -->
 # Gudmed Frontend Deployment Guide
 
 # 1. SSH into the Server  
