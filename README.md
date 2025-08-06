@@ -1,13 +1,16 @@
 # New Deployment method 
-This project now uses a new deployment workflow with AWS services. When changes are pushed to the dev branch, a webhook will trigger an AWS CodeBuild build process, automating the deployment pipeline.
+This project now follows an automated deployment workflow using AWS services. Whenever changes are pushed to the dev branch, a webhook triggers an AWS CodeBuild process, automating the entire deployment pipeline.
 
 Key components of the deployment setup:
 
-1.The website is hosted on AWS S3 for static content delivery.
+1.Website Hosting: The website is hosted on AWS S3 for efficient static content delivery.
 
-2.CloudFront is used for fast, secure content delivery with low latency.
+2.Content Delivery: CloudFront ensures fast, secure, and low-latency content delivery.
 
-3.The entire process is integrated into a CI/CD pipeline with AWS CodeBuild, ensuring automated deployments without downtime.
+3.CI/CD Pipeline: The entire deployment process is seamlessly integrated into a CI/CD pipeline with AWS CodeBuild, ensuring automated and uninterrupted deployments.
+
+4.Propagation Time: After PUSH , it may take up to 2 minutes for the changes to reflect on the domain (gudmed.in or www.gudmed.in).
+
 
 
 
