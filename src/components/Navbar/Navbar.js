@@ -10,14 +10,14 @@ const Navbar = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 700); // For mobile (phones)
-  const [isLaptop, setIsLaptop] = useState(window.innerWidth <= 1200 && window.innerWidth > 700); // For laptop (tablets and small laptops)
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 1200); // For desktop
+  const [isLaptop, setIsLaptop] = useState(window.innerWidth <= 1280 && window.innerWidth > 700); // For laptop (tablets and small laptops)
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 1280); // For desktop
 
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 700);
-      setIsLaptop(window.innerWidth <= 1200 && window.innerWidth > 700);
-      setIsDesktop(window.innerWidth > 1200);
+      setIsLaptop(window.innerWidth <= 1280 && window.innerWidth > 700);
+      setIsDesktop(window.innerWidth > 1280);
     };
 
     window.addEventListener("resize", handleResize);
@@ -104,7 +104,7 @@ const Navbar = () => {
         {isDesktop && (
           <div className="hidden lg:flex items-center">
             <Link to="/contacts" onClick={closeMobileMenu}>
-              <button className="px-6 py-3 text-lg font-semibold rounded-full border border-[#2E4168] text-black transition hover:bg-[#2E4168] hover:text-white">
+              <button className="px-6 py-3 text-lg font-semibold rounded-full border border-[#2E4168] text-black transition hover:bg-[#2E4168] hover:text-white whitespace-nowrap">
                 Get in Touch
               </button>
             </Link>

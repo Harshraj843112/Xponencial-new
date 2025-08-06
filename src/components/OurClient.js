@@ -16,7 +16,7 @@ import SarvodyaHospital from "../img/sarvodaya_Hospital.png";
 // Reusable Component for Logo Items
 const ClientLogo = ({ src, alt }) => (
   <div className="flex justify-center items-center mx-auto w-32 h-32 lg:w-40 lg:h-40">
-    <img src={src} alt={alt} className="object-contain w-full h-full" />
+    <img src={src} alt={alt} loading="lazy" className="object-contain w-full h-full" />
   </div>
 );
 

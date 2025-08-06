@@ -15,6 +15,7 @@ const SercicesHome = () => {
             
             <HospitalFeatureCard
                 imageSrc={Ncamera}
+                loading="lazy"
                
                 title="Transform Your Hospital into a Complete Smart Hospital with GudMed"
                 description="GudMed offers a wide range of healthcare solutions designed to improve patient care and hospital efficiency. Our services include real-time prescription digitization, discharge summary automation, patient engagement tools, and AI-powered hospital management systems. Whether you’re a doctor seeking to reduce administrative tasks or a hospital aiming to streamline operations, GudMed has the tools you need to succeed."

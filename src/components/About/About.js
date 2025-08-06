@@ -31,6 +31,7 @@ const AboutPage = () => {
           <img
             src={PersonImage} // Replace with actual image
             alt="Person"
+            loading="lazy"
             className="relative z-1 rounded-full bg-white"
           />
         </div>

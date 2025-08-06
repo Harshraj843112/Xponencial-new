@@ -38,6 +38,7 @@ const ImageSlider = () => {
                             src={image} 
                             alt={`Slide ${index + 1}`} 
                             className="w-full h-100 object-contain rounded-lg"
+                            loading="lazy"
                         />
                     </div>
                 ))}

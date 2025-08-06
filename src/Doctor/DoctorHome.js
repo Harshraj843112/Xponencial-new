@@ -22,6 +22,7 @@ const DoctorHome = () => {
             src={DoctorImage}
             alt="Doctor"
             className="w-full max-h-[300px] md:max-h-[350px] rounded-lg shadow-lg object-cover transition-transform duration-300"
+            loading="lazy"
           />
         </div>
 
@@ -96,6 +97,7 @@ const DoctorHome = () => {
           <img
             src={doctorImage}
             alt="Doctor"
+            loading="lazy"
             className="w-full max-h-[300px] md:max-h-[350px] rounded-lg shadow-lg object-cover transition-transform duration-300"
           />
         </div>
@@ -111,6 +113,7 @@ const DoctorHome = () => {
           <img
             src={DoctorPatientRecord}
             alt="Doctor"
+            loading="lazy"
             className="w-full max-h-[300px] md:max-h-[350px] rounded-lg shadow-lg object-cover transition-transform duration-300"
           />
         </div>
@@ -144,6 +147,7 @@ const DoctorHome = () => {
     <img
       src={FollowUpRemainder}
       alt="Doctor"
+      loading="lazy"
       className="w-full max-h-[300px] md:max-h-[350px] rounded-lg shadow-lg object-cover transition-transform duration-300"
     />
   </div>
@@ -156,6 +160,7 @@ const DoctorHome = () => {
           <img
             src={PatientConversesion}
             alt="Doctor"
+            loading="lazy"
             className="w-full max-h-[300px] md:max-h-[350px] rounded-lg shadow-lg object-cover transition-transform duration-300"
           />
         </div>
@@ -198,6 +203,7 @@ const DoctorHome = () => {
     <img
       src={DisachargeSummary}
       alt="Doctor"
+      loading="lazy"
       className="w-full max-h-[300px] md:max-h-[350px] rounded-lg shadow-lg object-cover transition-transform duration-300"
     />
   </div>

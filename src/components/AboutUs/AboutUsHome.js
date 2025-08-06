@@ -18,6 +18,7 @@ const AboutSection = ({ title, text, image }) => (
       <img
         src={AboutUsImage}
         alt={title}
+        loading="lazy"
         className="w-full max-h-[300px]  sm:max-h-[450px] md:max-h-[750px] lg:max-h-[350px] xl: rounded-lg shadow-lg object-cover transition-transform duration-300"
       />
     </div>

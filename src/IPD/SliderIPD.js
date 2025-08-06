@@ -81,11 +81,13 @@ const SliderIPD = () => {
                     title="Page 1"
                     beforeImage={IPDdischarge1}
                     afterImage={IPDdischarge2}
+                    loading="lazy"
                 />
                 <ImageSection
                     title="Page 2"
                     beforeImage={hindiImage}
                     afterImage={englishImage}
+                    loading="lazy"
                 />
                 {/* Page 2 Comparison */}
               

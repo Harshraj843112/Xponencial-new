@@ -91,6 +91,7 @@ const GudMedSmartCamera = () => {
             <img
               src={SmartCameraImage}
               alt="GudMed Smart Camera"
+              loading="lazy"
               className="w-full max-w-md h-auto object-cover rounded-lg shadow-md"
             />
           </div>

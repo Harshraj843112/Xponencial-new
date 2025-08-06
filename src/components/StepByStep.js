@@ -74,13 +74,13 @@ const StepByStep = () => {
             Simply scan the handwritten prescription using the GudMed Smart Camera.
           </p>
           {/* Downward Arrow for Mobile */}
-          <div className="sm:hidden mt-6">
+          <div className="hideen sm:hidden mt-6">
             <DownArrowIcon size={12} />
           </div>
         </div>
 
         {/* Arrow between Step 2 and Step 3 */}
-        <div className="hidden sm:block lg:flex font-medium justify-center items-center absolute top-1/3 left-[50%] sm:left-[48%] md:left-[62%] lg:left-[64%] transform -translate-y-1/2">
+        <div className="hidden sm:hidden md:block lg:flex font-medium justify-center items-center absolute top-1/3 left-[50%] sm:left-[48%] md:left-[62%] lg:left-[64%] transform -translate-y-1/2">
           <ArrowIcon size={32} />
         </div>
 

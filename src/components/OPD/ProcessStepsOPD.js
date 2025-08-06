@@ -68,6 +68,7 @@ const ProcessStepsOPD = () => (
                                 src={step.image}
                                 alt={step.title}
                                 className="w-full h-full object-cover"
+                                loading="lazy"
                             />
                         ) : (
                             <span className="text-white text-lg">Image</span>

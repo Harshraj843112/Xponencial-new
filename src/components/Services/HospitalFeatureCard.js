@@ -10,6 +10,7 @@ const HospitalFeatureCard = ({ imageSrc, title, description, features }) => {
                     <img
                         src={imageSrc}
                         alt={title}
+                        loading="lazy"
                         className="w-full max-h-[700px] md:max-h-[750px] rounded-lg shadow-lg object-cover transition-transform duration-300 "
                     />
                 </div>

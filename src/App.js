@@ -12,6 +12,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import Spinner from './components/Loader/Spiner';
 
 // Lazy-load every page/component exactly as originally imported
 const Home = lazy(() => import('./Pages/Home'));
@@ -33,7 +34,7 @@ export default function App() {
     <Router>
       <Navbar />
       
-      <Suspense fallback={<div>Loading…</div>}>
+     <Suspense fallback={<Spinner />}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/hospital" element={<ForHospital />} />

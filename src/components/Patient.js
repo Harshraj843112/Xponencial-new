@@ -2,7 +2,7 @@ import React from "react";
 import doctorImage from "../img/DoctorPage2.jpeg"; // Ensure to replace with correct image path
 import DoctorImage from "../img/DoctorpageImage.jpeg";
 import DoctorPatientRecord from "../img/DocPatientRecord.jpeg"
-import FollowUpRemainder from "../img/PtientfollowUpRemainder.jpeg"
+import FollowUpRemainder from "../img/FollowUpRemainder.jpg"
 import PatientConversesion from "../img/PatientComunication.jpg"
 import DisachargeSummary from "../img/PatientDischaege.png"
 import PatientImage from "../img/PatientImage.jpg"
@@ -104,9 +104,6 @@ const Patient = () => {
           <p className="text-base sm:text-lg text-gray-700 leading-relaxed mx-auto max-w-screen-sm">
           Our platform ensures you have all your medical information at your fingertips, from digital prescriptions to reminders for your next medicine dose. With GudMed, you stay connected with your healthcare provider, receive timely updates, and have your entire health history securely stored. We help you understand your treatment better, offering peace of mind and making healthcare more accessible.
           </p>
-
-
-          
 
         </div>
 

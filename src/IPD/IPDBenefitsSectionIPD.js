@@ -42,6 +42,7 @@ const IPDBenefitsSectionIPD = () => {
                         title={benefit.title}
                         description={benefit.description}
                         image={benefit.image}
+                        loading="lazy"
                     />
                 ))}
             </div>

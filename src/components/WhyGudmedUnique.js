@@ -74,7 +74,7 @@ const WhyGudmedUnique = () => {
         >
           Why GudMed is Unique  ?
         </motion.h2>
-        <motion.pmd
+        <motion.p
          className="block text-xl md:max-w-3xl font-medium text-gray-800 text-center mb-12 mx-auto"
 
           initial={{ opacity: 0 }}
@@ -82,7 +82,7 @@ const WhyGudmedUnique = () => {
           transition={{ duration: 1 }}
         >
           GudMed is revolutionizing healthcare with innovative, patient-focused solutions designed to meet the unique needs of hospitals, doctors, and patients.
-        </motion.pmd>
+        </motion.p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           {sections.map((section, index) => (
             <motion.div
