@@ -1,6 +1,6 @@
 # Gudmed Frontend Deployment Guide
 
-# 1. SSH into the Server
+# 1. SSH into the Server  
 ssh root@43.204.53.220
   
 # 2. Navigate to the Project Directory
