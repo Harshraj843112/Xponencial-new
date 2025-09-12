@@ -109,43 +109,59 @@ const Slider = () => {
     },
   };
 
-  const renderTitle = (title, gradientWords, gradientClass) => {
-    const words = title.split(" ");
-    return words.map((word, index) => {
-      const isGradientWord = gradientWords.some((gradientWord) =>
-        gradientWord.includes(word)
-      );
+  // --- REPLACE renderTitle + renderFormattedTitle WITH THIS ---
+
+const escapeRegExp = (str) =>
+  str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+const renderTitle = (text, gradientWords = [], gradientClass) => {
+  if (!gradientWords || gradientWords.length === 0) {
+    return <>{text}</>;
+  }
+
+  // Prepare regex pattern for exact phrase matches
+  const alternatives = gradientWords
+    .map((w) => w.trim())
+    .filter(Boolean)
+    .map((w) => escapeRegExp(w))
+    .map((w) => `\\b${w}\\b`);
+
+  if (alternatives.length === 0) return <>{text}</>;
+
+  const pattern = alternatives.join("|");
+  const splitRegex = new RegExp(`(${pattern})`, "gi");
+  const exactMatchRegex = new RegExp(`^(${pattern})$`, "i");
+
+  const parts = text.split(splitRegex);
+
+  return parts.map((part, idx) => {
+    if (!part) return null;
+    if (exactMatchRegex.test(part.trim())) {
+      // Apply gradient only for exact match
       return (
         <span
-          key={index}
-          className={isGradientWord ? `text-transparent bg-clip-text ${gradientClass}` : ""}
+          key={idx}
+          className={`text-transparent bg-clip-text ${gradientClass}`}
         >
-          {word}{" "}
+          {part}
         </span>
       );
-    });
-  };
-
-  const renderFormattedTitle = (title, gradientWords, gradientClass) => {
-    if (isMobile) {
-      // Preserve <br> tags in mobile view
-      return title.split(/<br\s*\/?>/).map((chunk, index) => (
-        <React.Fragment key={index}>
-          {renderTitle(chunk, gradientWords, gradientClass)}
-          {index < title.split(/<br\s*\/?>/).length - 1 && <br />}
-        </React.Fragment>
-      ));
     }
+    // Leave other parts with default color (your h1 text-gray-800 will apply)
+    return <span key={idx}>{part}</span>;
+  });
+};
 
-    return title
-      .split(/<br\s*\/?>/)
-      .map((chunk, index) => (
-        <React.Fragment key={index}>
-          {renderTitle(chunk, gradientWords, gradientClass)}
-          {index < title.split(/<br\s*\/?>/).length - 1 && <br />}
-        </React.Fragment>
-      ));
-  };
+const renderFormattedTitle = (title, gradientWords, gradientClass) => {
+  const chunks = title.split(/<br\s*\/?>/);
+  return chunks.map((chunk, index) => (
+    <React.Fragment key={index}>
+      {renderTitle(chunk, gradientWords, gradientClass)}
+      {index < chunks.length - 1 && <br />}
+    </React.Fragment>
+  ));
+};
+
 
   return (
     <div className="flex flex-col items-center justify-center bg-white">
