@@ -10,7 +10,7 @@ const steps = [
     },
     {
         title: "Real-Time Digitization",
-        description: "The handwritten prescription is scanned or captured using GudMed’s technology. Our advanced AI tools analyze the scanned document, identifying the text, medical terms, and abbreviations used by the doctor. The AI ensures that the prescription is accurately digitized and ready for further processing.",
+        description: "The handwritten prescription is scanned or captured using Xponencial technology. Our advanced AI tools analyze the scanned document, identifying the text, medical terms, and abbreviations used by the doctor. The AI ensures that the prescription is accurately digitized and ready for further processing.",
         image: require('../../img/opdimg2.png'),
     },
     {
@@ -52,7 +52,7 @@ const ProcessStepsOPD = () => (
 
         {/* Steps Section */}
         <h2 className=" text-4xl md:text-5xl font-bold text-center text-[#2E4168] mb-10 ">
-          How GudMed Technology is important
+          How Xponencial Technology is important
         </h2>
 
         <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">

@@ -36,7 +36,7 @@ const benefits = [
 
 const BenefitsOPD = () => (
     <section className="bg-gray-50 p-6 rounded-lg shadow-md mb-8 ">
-        <h2 className="text-2xl font-semibold text-center mb-8 text-[#2E4168]">Benefits of OPD Prescription Digitization with GudMed</h2>
+        <h2 className="text-2xl font-semibold text-center mb-8 text-[#2E4168]">Benefits of OPD Prescription Digitization with Xponencial</h2>
         
         {/* Benefits Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -55,7 +55,7 @@ const BenefitsOPD = () => (
         
         {/* Closing Statement */}
         <p className="text-center text-gray-700 mt-8">
-            By digitizing the entire prescription process without requiring direct data entry from doctors, GudMed improves operational efficiency, enhances the patient experience, and supports better hospital workflows.
+            By digitizing the entire prescription process without requiring direct data entry from doctors, Xponencial improves operational efficiency, enhances the patient experience, and supports better hospital workflows.
         </p>
     </section>
 );

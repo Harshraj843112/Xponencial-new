@@ -32,7 +32,7 @@ const GudmedICUAutomation = () => {
             icon: <FaIndustry size={30} className="text-blue-600" />,
             title: "Industry Impact and Market Potential",
             description:
-                "With the tele-ICU market projected to grow, Gudmed is at the forefront of ICU tech solutions.",
+                "With the tele-ICU market projected to grow, Xponencial is at the forefront of ICU tech solutions.",
             image: MarketImage,
         },
     ];
@@ -41,10 +41,10 @@ const GudmedICUAutomation = () => {
         <div className="bg-white  ">
             <div className="max-w-7xl mx-auto bg-white rounded-3xl shadow-xl overflow-hidden">
                 <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-4xl font-semibold text-[#2E4168] mb-6 text-center pt-8 px-4">
-                    Revolutionizing ICU Automation with Gudmed
+                    Revolutionizing ICU Automation with Xponencial
                 </h2>
                 <p className="text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed mb-10 text-center px-0 sm:px-20">
-                    Gudmed is transforming Intensive Care Unit (ICU) management with cutting-edge AI solutions designed to improve patient outcomes, streamline workflows, and empower healthcare professionals.
+                    Xponencial is transforming Intensive Care Unit (ICU) management with cutting-edge AI solutions designed to improve patient outcomes, streamline workflows, and empower healthcare professionals.
                 </p>
 
                 {/* Responsive Grid Layout */}

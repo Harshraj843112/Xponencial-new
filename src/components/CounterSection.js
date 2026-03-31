@@ -12,10 +12,10 @@ const CounterSection = () => {
 
   // Base values and increments
   const baseStats = {
-    prescriptionsServed: 2650627,
-    hindiPrescriptionsServed: 877645,
-    doctorsWithUs: 3850,
-    happyPatients: 180000,
+    prescriptionsServed: 250627,
+    hindiPrescriptionsServed: 17645,
+    doctorsWithUs: 1550,
+    happyPatients: 48000,
   };
   const increments = {
     prescriptionsServed: 1156,

@@ -6,8 +6,7 @@ import AnimatedText from '../components/AnimatedText';
 
 import FeaturesSection from '../components/Feature/FeaturesSection';
 import ImageComparison from '../components/ImageCompare';
-import OurClient from '../components/OurClient';
-import KnowledgePartnerCardSection from '../components/KnowledgePartner/KnowldgePartnerCardSection';
+
 
 import ComparisonSection from '../components/ComparisonSection';
 import WhyGudmedUnique from '../components/WhyGudmedUnique';
@@ -38,11 +37,11 @@ const Home = () => {
       
       <ComparisonSection></ComparisonSection>
       <WhyGudmedUnique></WhyGudmedUnique>
-     <KnowledgePartnerCardSection></KnowledgePartnerCardSection>
+    
       
 
      
-      <OurClient></OurClient>
+      
 
 
      

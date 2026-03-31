@@ -36,7 +36,7 @@ const Patient = () => {
     Healthcare can be  complex
   </h2>
   <span className="block text-[#2E4168] md:text-3xl text-4xl lg:text-5xl font-medium mb-3">
-   but GudMed  is here to &nbsp;
+   but Xponencial  is here to &nbsp;
   </span>
   <span className="block md:text-4xl  text-[#2E4168] text-4xl lg:text-5xl font-medium mb-3">
     simplify  it for you.&nbsp;
@@ -56,7 +56,7 @@ const Patient = () => {
       Healthcare can be
     </h2>
     <span className="text-[#2E4168] md:mx-auto -mt-80 text-3xl sm:text-4xl font-medium  ">
-      complex but GudMed&nbsp;
+      complex but Xponencial&nbsp;
     </span>
     <span className="text-[#2E4168] mt-6 text-3xl sm:text-4xl font-medium">
       is here&nbsp;
@@ -66,33 +66,7 @@ const Patient = () => {
     </span>
   </div>
 
-  {/* Buttons */}
-  <div className="flex flex-row gap-8 justify-center sm:pl-4 ">
-    <a
-      href="https://patient.gudmed.in/signin"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <button
-        className="w-full sm:w-auto px-12 py-6 md:px-16 md:py-6 text-white bg-[#2E4168] rounded-full shadow-lg hover:bg-[#0e182c] focus:outline-none transition-transform duration-300 hover:scale-105"
-        aria-label="Sign In"
-      >
-        Sign In
-      </button>
-    </a>
-    <a
-      href="https://patient.gudmed.in/signup"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <button
-        className="w-full sm:w-auto px-12 py-6 md:px-16 md:py-6 text-blue-600 border border-blue-600 rounded-full shadow-lg hover:bg-[#2E4168] hover:text-white focus:outline-none transition-transform duration-300 hover:scale-105"
-        aria-label="Sign Up"
-      >
-        Sign Up
-      </button>
-    </a>
-  </div>
+ 
 </div>
 
       </div>
@@ -102,7 +76,7 @@ const Patient = () => {
         {/* Left: Features Content */}
         <div className="w-full md:w-1/2 text-center md:text-left space-y-6 ">
           <p className="text-base sm:text-lg text-gray-700 leading-relaxed mx-auto max-w-screen-sm">
-          Our platform ensures you have all your medical information at your fingertips, from digital prescriptions to reminders for your next medicine dose. With GudMed, you stay connected with your healthcare provider, receive timely updates, and have your entire health history securely stored. We help you understand your treatment better, offering peace of mind and making healthcare more accessible.
+          Our platform ensures you have all your medical information at your fingertips, from digital prescriptions to reminders for your next medicine dose. With Xponencial, you stay connected with your healthcare provider, receive timely updates, and have your entire health history securely stored. We help you understand your treatment better, offering peace of mind and making healthcare more accessible.
           </p>
 
         </div>

@@ -34,11 +34,11 @@ const CTASection = () => {
     <section className="py-12 px-6 bg-gray-100 rounded-xl shadow-lg text-center md:py-16 lg:px-20">
       <h3 className="text-2xl font-semibold text-[#2E4168] mb-6 sm:text-3xl md:text-4xl">
         The Smart Hospital of Tomorrow – Today with{" "}
-        <span className="text-[#2E4168] font-bold">GudMed</span>
+        <span className="text-[#2E4168] font-bold">Xponencial</span>
       </h3>
       <p className="text-base text-gray-800 mb-8 sm:text-lg md:text-xl">
         Transform your hospital into a smart, efficient, and patient-centered
-        facility with GudMed's innovative solutions.
+        facility with Xponencial innovative solutions.
       </p>
       <ul className="space-y-6 text-left md:space-y-8 lg:space-y-10">
         {benefits.map((benefit, index) => (
@@ -60,11 +60,11 @@ const CTASection = () => {
         Join the Future of Healthcare Today
       </h4>
       <p className="text-base text-gray-800 mb-8 sm:text-lg md:text-xl">
-      Embrace GudMed’s smart hospital solutions and leave behind the inefficiencies of physical records and manual processes. Together, we can revolutionize how hospitals operate, ensuring better outcomes for patients and streamlined efficiency for healthcare providers.
+      Embrace Xponencial smart hospital solutions and leave behind the inefficiencies of physical records and manual processes. Together, we can revolutionize how hospitals operate, ensuring better outcomes for patients and streamlined efficiency for healthcare providers.
       </p>
       <Link to="/contacts">
       <button className="px-6 py-3 bg-[#2E4168] text-white font-semibold rounded-full shadow-lg transition-all duration-300 hover:bg-[#2f4e87] sm:px-8 sm:py-4">
-        Get Started with GudMed
+        Get Started with Xponencial
       </button>
       </Link>
       

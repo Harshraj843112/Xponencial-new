@@ -14,7 +14,7 @@ const GudMedServices = () => {
     {
       title: "Medicine Reminders",
       description:
-        "Keeping track of medications is crucial for effective treatment, yet many patients struggle to follow their prescribed schedules. GudMed’s Medicine Reminders service ensures that patients never miss a dose, improving compliance and health outcomes.",
+        "Keeping track of medications is crucial for effective treatment, yet many patients struggle to follow their prescribed schedules. Xponencial Medicine Reminders service ensures that patients never miss a dose, improving compliance and health outcomes.",
       icon: <FaPills className="text-blue-600 text-5xl" />,
       howItWorks: [
         { text: "Patients receive automated reminders via SMS or WhatsApp for every medication on their prescription.", icon: <FaSms className="text-[#2E4168] text-8xl" /> },
@@ -30,7 +30,7 @@ const GudMedServices = () => {
     {
       title: "Appointment Follow-Ups",
       description:
-        "Missed follow-up appointments can disrupt care plans and delay recovery. GudMed’s Appointment Follow-Up service ensures patients stay on track with their healthcare by sending timely reminders for scheduled appointments or check-ups.",
+        "Missed follow-up appointments can disrupt care plans and delay recovery. Xponencial Appointment Follow-Up service ensures patients stay on track with their healthcare by sending timely reminders for scheduled appointments or check-ups.",
       icon: <FaCalendarAlt className="text-green-600 text-5xl" />,
       howItWorks: [
         { text: "Patients receive notifications before their upcoming follow-up appointments, including details about time and location.", icon: <FaSms className="text-[#2E4168] text-8xl" /> },
@@ -46,10 +46,10 @@ const GudMedServices = () => {
     {
       title: "Medicine Inventory Management",
       description:
-        "Managing medicine inventories efficiently is critical for hospitals and pharmacies to meet patient demand. GudMed’s Medicine Inventory Management service helps hospitals track and manage their medicine stocks in real time, preventing shortages and ensuring that the right medications are always available.",
+        "Managing medicine inventories efficiently is critical for hospitals and pharmacies to meet patient demand. Xponencial Medicine Inventory Management service helps hospitals track and manage their medicine stocks in real time, preventing shortages and ensuring that the right medications are always available.",
       icon: <FaBoxes className="text-yellow-600 text-5xl" />,
       howItWorks: [
-        { text: "GudMed’s platform integrates with the hospital or pharmacy’s inventory system to monitor stock levels in real-time.", icon: <FaSyncAlt className="text-[#2E4168] text-7xl" /> },
+        { text: "Xponencial platform integrates with the hospital or pharmacy’s inventory system to monitor stock levels in real-time.", icon: <FaSyncAlt className="text-[#2E4168] text-7xl" /> },
         { text: "Automatic alerts are generated when stock levels are low or when medications are approaching their expiration date.", icon: <FaBell className="text-[#2E4168] text-7xl" /> },
         { text: "Hospitals and pharmacies can forecast inventory needs based on prescription trends and adjust orders accordingly to avoid overstocking or shortages.", icon: <FaSms className="text-[#2E4168] text-8xl" /> },
       ],
@@ -64,10 +64,10 @@ const GudMedServices = () => {
   return (
     <div className="bg-gradient-to-br from-gray-50 to-gray-100 mb-10 ">
       <h1 className="text-4xl font-semibold text-center text-[#2E4168] mb-8">
-        Our Services at GudMed
+        Our Services at Xponencial
       </h1>
       <p className="text-lg md:text-center text-gray-600 lg:max-w-5xl md:mx-16 mx-2 mb-12">
-        GudMed offers a suite of services designed to enhance healthcare
+        Xponencial offers a suite of services designed to enhance healthcare
         delivery, improve patient engagement, and streamline hospital
         operations. From medicine reminders to inventory management, our
         solutions empower hospitals, doctors, and patients to stay connected

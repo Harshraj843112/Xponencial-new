@@ -12,17 +12,9 @@ const NavList = [
   },
   {
     id: "3",
-    list: "For Hospitals",
-    link: "/hospital", // Linking to the hospital page
-    dropdown: [
-      {
-       
-        items: [
-          { name: "IPD", link: "/hospital/ipd" }, // Link for IPD
-          { name: "OPD", link: "/hospital/opd" }, // Link for OPD
-        ],
-      },
-    ],
+    list: "For Clinics",
+    link: "/clinics", // Linking to the hospital page
+ 
   },
   {
     id: "4",
@@ -34,11 +26,7 @@ const NavList = [
     list: "Services",
     link: "/services", // Assuming a link to a services page
   },
-  {
-    id: "6",
-    list: "Team",
-    link: "/team", // Assuming a link to a team page
-  },
+ 
   
 ];
 

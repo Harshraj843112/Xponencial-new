@@ -118,7 +118,7 @@ const ComparisonSection = () => {
     <section className="bg-white py-0 sm:px-6 lg:px-8 px-1">
      <h1 className="text-center text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#2E4168] leading-snug sm:leading-normal mt-6 mb-8 space-x-4">
   <span className="text-3xl sm:text-4xl lg:text-4xl text-[#2E4168] ml-2 font-bold">
-    GudMed
+   Xponencial
   </span>
   <span className="text-3xl sm:text-4xl lg:text-4xl text-[#2E4168] ">vs</span>
   <span className="text-3xl sm:text-4xl lg:text-4xl text-[#2E4168] ml-4">
@@ -135,7 +135,7 @@ const ComparisonSection = () => {
               <tr>
                 <th className="border border-[#414c61] px-2 sm:px-4 py-2 sm:py-3 text-left font-bold">Aspect</th>
                 <th className="border border-[#414c61] px-2 sm:px-4 py-2 sm:py-3 text-left font-medium">Other Technologies</th>
-                <th className="border border-[#414c61] px-2 sm:px-4 py-2 sm:py-3 text-left font-bold text-2xl mx-auto ">GudMed </th>
+                <th className="border border-[#414c61] px-2 sm:px-4 py-2 sm:py-3 text-left font-bold text-2xl mx-auto ">Xponencial </th>
               </tr>
             </thead>
             <tbody>

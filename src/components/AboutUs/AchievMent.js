@@ -43,7 +43,7 @@ import { MdHealthAndSafety, MdOutlineScience } from 'react-icons/md'
       title: " Global Reach",
       icon: <FaGlobe className="w-12 h-12 text-indigo-600" />,
       content: [
-        "Extended our services to international markets, showcasing GudMed as a global leader in healthcare digitization and technology.",
+        "Extended our services to international markets, showcasing Xponencial as a global leader in healthcare digitization and technology.",
         "Supported multilingual transcription and digitization, catering to diverse patient and hospital needs."
       ]
     },
@@ -60,7 +60,7 @@ import { MdHealthAndSafety, MdOutlineScience } from 'react-icons/md'
       icon: <FaChartLine className="w-12 h-12 text-teal-600" />,
       content: [
         "Processed millions of prescriptions and discharge summaries annually, providing scalable and reliable solutions to healthcare institutions.",
-        "Expanded services to OPD, IPD, pharmacy, and lab integrations, making GudMed a one-stop solution for all healthcare digitization needs."
+        "Expanded services to OPD, IPD, pharmacy, and lab integrations, making Xponencial a one-stop solution for all healthcare digitization needs."
       ]
     }
   ]
@@ -118,7 +118,7 @@ import { MdHealthAndSafety, MdOutlineScience } from 'react-icons/md'
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <p className="text-base sm:text-lg text-center text-[#2E4168] mb-8 md:mx-4 lg:mx-16 ">
-              At GudMed, we are revolutionizing healthcare through technology, innovation, and patient-centered solutions. Here are some milestones that reflect our commitment to excellence:
+              At Xponencial, we are revolutionizing healthcare through technology, innovation, and patient-centered solutions. Here are some milestones that reflect our commitment to excellence:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8">
               {achievements.map((achievement, index) => (
@@ -141,7 +141,7 @@ import { MdHealthAndSafety, MdOutlineScience } from 'react-icons/md'
               Join Us in Transforming Healthcare
             </h2>
             <p className="text-base sm:text-base text-gray-700">
-              At GudMed, our achievements are a reflection of our passion for delivering excellence. We are dedicated to continuing our journey of innovation and collaboration to make healthcare smarter, faster, and more accessible for everyone.
+              At Xponencial, our achievements are a reflection of our passion for delivering excellence. We are dedicated to continuing our journey of innovation and collaboration to make healthcare smarter, faster, and more accessible for everyone.
             </p>
           </motion.div>
         </div>

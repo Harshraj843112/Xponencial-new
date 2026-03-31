@@ -11,7 +11,7 @@ const WhyGudmedUnique = () => {
       icon: <FaDigitalTachograph className="text-blue-600 text-4xl mb-3" />,
       title: "Real-Time Prescription Digitization",
       description:
-        "Experience the power of real-time digitization! With GudMed, handwritten prescriptions are instantly transformed into digital formats, seamlessly sent to pharmacies, and boost operational efficiency. Hospitals can also provide instant lab test bookings and results, ensuring patient convenience and satisfaction.",
+        "Experience the power of real-time digitization! With Xponencial, handwritten prescriptions are instantly transformed into digital formats, seamlessly sent to pharmacies, and boost operational efficiency. Hospitals can also provide instant lab test bookings and results, ensuring patient convenience and satisfaction.",
     },
     {
       icon: <FaHospital className="text-blue-600 text-4xl mb-3" />,
@@ -40,25 +40,25 @@ const WhyGudmedUnique = () => {
       icon: <FaUserShield className="text-blue-600 text-4xl mb-3" />,
       title: "Enhanced Patient Engagement",
       description:
-        "GudMed puts patients at the heart of healthcare. By educating them about treatments and providing timely reminders, we ensure better health outcomes. Patients can access their medical documents digitally, making their healthcare journey smooth and transparent.",
+        "Xponencial puts patients at the heart of healthcare. By educating them about treatments and providing timely reminders, we ensure better health outcomes. Patients can access their medical documents digitally, making their healthcare journey smooth and transparent.",
     },
     {
       icon: <FaChartLine className="text-blue-600 text-4xl mb-3" />,
       title: "Seamless Workflow Integration",
       description:
-        "Our technology adapts to your needs, not the other way around. Whether it’s editable discharge summaries, role-based EMR access, or integrated lab and radiology services, GudMed ensures your hospital’s workflows remain uninterrupted.",
+        "Our technology adapts to your needs, not the other way around. Whether it’s editable discharge summaries, role-based EMR access, or integrated lab and radiology services, Xponencial ensures your hospital’s workflows remain uninterrupted.",
     },
     {
       icon: <FaUserShield className="text-blue-600 text-4xl mb-3" />,
       title: "Data Security and Privacy",
       description:
-        "Your trust matters. GudMed ensures stringent data protection and confidentiality, adhering to global standards. We guarantee no sharing of Scoped Data with third parties, prioritizing your patients' privacy.",
+        "Your trust matters. Xponencial ensures stringent data protection and confidentiality, adhering to global standards. We guarantee no sharing of Scoped Data with third parties, prioritizing your patients' privacy.",
     },
     {
       icon: <FaDigitalTachograph className="text-blue-600 text-4xl mb-3" />,
       title: "Customizable and Scalable Solutions",
       description:
-        "No matter the size of your organization, GudMed offers flexible, scalable solutions tailored to your needs. From small clinics to large hospitals, our technology grows with you.",
+        "No matter the size of your organization, Xponencial offers flexible, scalable solutions tailored to your needs. From small clinics to large hospitals, our technology grows with you.",
     },
    
   ];
@@ -72,7 +72,7 @@ const WhyGudmedUnique = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Why GudMed is Unique  ?
+          Why Xponencial is Unique  ?
         </motion.h2>
         <motion.p
          className="block text-xl md:max-w-3xl font-medium text-gray-800 text-center mb-12 mx-auto"
@@ -81,7 +81,7 @@ const WhyGudmedUnique = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          GudMed is revolutionizing healthcare with innovative, patient-focused solutions designed to meet the unique needs of hospitals, doctors, and patients.
+         Xponencial is revolutionizing healthcare with innovative, patient-focused solutions designed to meet the unique needs of hospitals, doctors, and patients.
         </motion.p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           {sections.map((section, index) => (
@@ -118,10 +118,10 @@ const WhyGudmedUnique = () => {
         <div className="mt-4 bg-white  py-12 px-6 rounded-xl shadow-lg text-center">
   <div className="max-w-3xl mx-auto">
     <h3 className="text-3xl lg:text-4xl font-bold text-[#2E4168] mb-4 leading-tight">
-      Join the GudMed Revolution
+      Join the Xponencial Revolution
     </h3>
     <p className="text-lg font-medium text-gray-700 mb-6  ">
-      Partner with GudMed and embrace a smarter, more efficient future for healthcare. Contact us today to learn how we can transform your healthcare operations.
+      Partner with Xponencial and embrace a smarter, more efficient future for healthcare. Contact us today to learn how we can transform your healthcare operations.
     </p>
     <div className="mt-6">
       <a

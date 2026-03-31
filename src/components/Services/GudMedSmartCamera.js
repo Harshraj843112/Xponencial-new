@@ -81,7 +81,7 @@ const GudMedSmartCamera = () => {
       <div className="flex flex-col items-center bg-white rounded-lg shadow-lg p-8 w-full  mx-auto">
         {/* Title Section */}
         <h2 className="md:text-4xl text-[1.1rem] md:font-semibold font-bold  text-[#2E4168] text-center mb-8">
-        GudMed Smart Camera: Transforming Prescription Management with Cutting-Edge Digitization
+        Xponencial Smart Camera: Transforming Prescription Management with Cutting-Edge Digitization
         </h2>
 
         {/* Image and Features Section */}
@@ -118,7 +118,7 @@ const GudMedSmartCamera = () => {
         {/* Benefits Section */}
         <div className="mt-10 w-full">
           <h3 className="text-4xl font-semibold text-[#2E4168] mb-6 mt-4 text-center">
-            Key Benefits of GudMed Smart Camera
+            Key Benefits of Xponencial Smart Camera
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {benefits.map((benefit, index) => (

@@ -26,10 +26,10 @@ const BenefitsList = () => {
                 {/* Content Section */}
                 <div className="w-full lg:w-1/2 space-y-6">
                     <h3 className="text-2xl sm:text-3xl font-bold text-[#2E4168] text-center lg:text-left">
-                        Stop Storing Data in Archived MRD Files—Go Digital with GudMed
+                        Stop Storing Data in Archived MRD Files—Go Digital with Xponencial
                     </h3>
                     <p className="text-sm sm:text-base lg:text-lg text-[#2E4168] leading-relaxed">
-                    Many hospitals still rely on physical Medical Record Departments (MRDs) to store patient data for years, often in overcrowded, paper-based archives. This method is not only inefficient but also prone to errors, loss, and difficulties in retrieval. With GudMed, you can put an end to these storage challenges by digitizing all patient records.
+                    Many hospitals still rely on physical Medical Record Departments (MRDs) to store patient data for years, often in overcrowded, paper-based archives. This method is not only inefficient but also prone to errors, loss, and difficulties in retrieval. With Xponencial, you can put an end to these storage challenges by digitizing all patient records.
                     </p>
                     <ul className="space-y-4">
                         {benefits.map((benefit, index) => (

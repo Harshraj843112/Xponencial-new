@@ -15,25 +15,25 @@ const motionCardsData = [
   {
     icon: FaRegPaperPlane,
     title: "Revolutionizing Healthcare",
-    description: "Experience seamless patient care with GudMed's cutting-edge technology. From digital prescriptions to real-time updates, revolutionize your healthcare journey.",
+    description: "Experience seamless patient care with Xponencial cutting-edge technology. From digital prescriptions to real-time updates, revolutionize your healthcare journey.",
     bgColor: "#FF6F61",
   },
   {
     icon: FaRobot,
     title: "AI-Powered Solutions for Smarter Hospitals",
-    description: "Enhance operational efficiency with GudMed's AI integration. Quick discharge summaries, proactive patient engagement, and streamlined workflows—all in one place.",
+    description: "Enhance operational efficiency with Xponencial AI integration. Quick discharge summaries, proactive patient engagement, and streamlined workflows—all in one place.",
     bgColor: "#00A9E0",
   },
   {
     icon: FaHeartbeat,
     title: "Seamless Care Beyond the Hospital",
-    description: "GudMed bridges the gap between hospitals and patients. From timely reminders to centralized medical records, care continues wherever you go.",
+    description: "Xponencial bridges the gap between hospitals and patients. From timely reminders to centralized medical records, care continues wherever you go.",
     bgColor: "#F4A300",
   },
   {
     icon: FaMedkit,
     title: "Faster Discharges, Higher Satisfaction",
-    description: "Cut down waiting times with GudMed. Speed up discharges and elevate patient satisfaction while maximizing hospital ROI.",
+    description: "Cut down waiting times with Xponencial. Speed up discharges and elevate patient satisfaction while maximizing hospital ROI.",
     bgColor: "#F17C67",
   },
 ];
@@ -65,10 +65,10 @@ const TechnologyPage = () => (
   <div className="bg-white min-h-screen py-12 px-6 ">
     <div className="text-center mb-6 -mt-12 md:-mt-6">
   <h1 className="text-4xl font-bold font-sans text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500 mb-4 p-6">
-    GudMed’s Technology
+    Xponencial Technology
   </h1>
   <p className="text-gray-700 max-w-3xl mx-auto text-lg mt-0 md:-mt-4">
-    GudMed’s technology is designed to optimize healthcare operations through automation and intelligent tools. Our platform integrates seamlessly with hospital systems, enabling real-time access to patient data, reports, and medication history.
+    Xponencial technology is designed to optimize healthcare operations through automation and intelligent tools. Our platform integrates seamlessly with hospital systems, enabling real-time access to patient data, reports, and medication history.
   </p>
 </div>
 
@@ -99,7 +99,7 @@ const TechnologyPage = () => (
 </div>
 
       <p className="text-gray-700 max-w-5xl mx-auto text-lg mb-10 md:mx-4 xl:mx-auto ">
-        Artificial intelligence is transforming healthcare, and GudMed is at the forefront of this revolution. Our AI-driven platform helps hospitals and doctors make data-backed decisions faster. From predicting patient outcomes to optimizing workflows, our AI tools improve efficiency, reduce errors, and offer a personalized healthcare experience for every patient.
+        Artificial intelligence is transforming healthcare, and Xponencial is at the forefront of this revolution. Our AI-driven platform helps hospitals and doctors make data-backed decisions faster. From predicting patient outcomes to optimizing workflows, our AI tools improve efficiency, reduce errors, and offer a personalized healthcare experience for every patient.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4  gap-8">
         <HighlightCard

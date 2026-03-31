@@ -15,9 +15,9 @@ const slides = [
     gradient: "bg-gradient-to-r from-purple-400 via-pink-500 to-red-500",
   },
   {
-    titleDesktop: "Harness the <br> Power of <br> GudMed AI",
-    titleMobile: "Harness the <br/> Power of <br> GudMed AI",
-    gradientWords: ["GudMed AI", "Power"],
+    titleDesktop: "Harness the <br> Power of <br> Xponencial AI",
+    titleMobile: "Harness the <br/> Power of <br> Xponencial AI",
+    gradientWords: ["Xponencial AI", "Power"],
     gradient: "bg-gradient-to-r from-purple-400 via-pink-500 to-red-500",
   },
   {
@@ -42,9 +42,9 @@ const slides = [
   },
   {
     titleDesktop:
-      "Explore how GudMed is <br> transforming healthcare <br> one innovation at a time.",
-    titleMobile: "Explore how GudMed is <br>transforming healthcare <br> one innovation at a time.",
-    gradientWords: ["GudMed", "transforming", "innovation"],
+      "Explore how Xponencial is <br> transforming healthcare <br> one innovation at a time.",
+    titleMobile: "Explore how Xponencial is <br>transforming healthcare <br> one innovation at a time.",
+    gradientWords: ["Xponencial", "transforming", "innovation"],
     gradient: "bg-gradient-to-r from-purple-400 via-pink-500 to-red-500",
   },
 ];

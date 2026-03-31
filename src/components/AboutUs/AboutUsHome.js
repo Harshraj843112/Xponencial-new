@@ -46,7 +46,7 @@ const AboutUsHome = () => {
       {/* About Section */}
       <AboutSection
         title="Who We Are"
-        text="At GudMed, we believe that technology can bridge the gap between healthcare providers and patients. Founded by experts in healthcare and technology, we are dedicated to making healthcare smarter and more efficient. Our mission is to simplify healthcare operations while ensuring better patient outcomes. Through innovation and collaboration, GudMed is transforming how hospitals, doctors, and patients interact in the digital age."
+        text="At Xponencial, we believe that technology can bridge the gap between healthcare providers and patients. Founded by experts in healthcare and technology, we are dedicated to making healthcare smarter and more efficient. Our mission is to simplify healthcare operations while ensuring better patient outcomes. Through innovation and collaboration, Xponencial is transforming how hospitals, doctors, and patients interact in the digital age."
         image={AboutUsImage}
         
       />

@@ -55,7 +55,7 @@ const StepByStep = () => {
               <div className="font-bold text-lg sm:text-xl lg:text-2xl mb-2">Step 2</div>
             </div>
             <p className="text-sm sm:text-base lg:text-lg text-gray-700 mt-4">
-              Simply scan the handwritten prescription using the GudMed Smart Camera.
+              Simply scan the handwritten prescription using the Xponencial Smart Camera.
             </p>
           </div>
 

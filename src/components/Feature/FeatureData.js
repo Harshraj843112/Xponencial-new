@@ -8,7 +8,7 @@ const features = [
     icon: <img src={Medicine} alt="Medicine Reminder" className="w-16 h-16" />,
     title: "Medicine Reminder",
     description:
-      "Now you can get Medicine reminders on your phone by using Medicine Reminder Service from GudMed",
+      "Now you can get Medicine reminders on your phone by using Medicine Reminder Service from Xponencial",
   },
   {
     icon: <img src={Medical} alt="Medical Vault" className="w-16 h-16" />,
@@ -32,7 +32,7 @@ const features = [
     ),
     title: "Generic Medicine Service",
     description:
-      "Now you can SAVE UP TO 70% on your medical bills by using GudMed Generic Service",
+      "Now you can SAVE UP TO 70% on your medical bills by using Xponencial Generic Service",
   },
 ];
 

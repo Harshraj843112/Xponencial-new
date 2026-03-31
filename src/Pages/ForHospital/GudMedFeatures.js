@@ -6,7 +6,7 @@ const features = [
         title: "Real-Time Prescription and Discharge Summary Digitization",
         description: (
             <>
-                Forget manual data entry and long waiting times for discharge. GudMed digitizes prescriptions and discharge summaries in real-time, ensuring that patients receive their records instantly while automating workflows for doctors, nurses, and administrative staff.
+                Forget manual data entry and long waiting times for discharge. Xponencial digitizes prescriptions and discharge summaries in real-time, ensuring that patients receive their records instantly while automating workflows for doctors, nurses, and administrative staff.
                 <ul className="list-disc mx-auto  md:pl-5 mt-2 text-[#2E4168]">
                     <li><strong>Faster Discharges:</strong> Reduce discharge waiting times significantly with automated processes.</li>
                     <li><strong>Accurate Data Capture:</strong> Ensure accurate and comprehensive discharge summaries and prescriptions.</li>
@@ -33,7 +33,7 @@ const features = [
         title: "AI-Powered Analytics and Operational Efficiency",
         description: (
             <>
-                GudMed’s AI-driven tools help hospitals analyze data to optimize resource allocation, predict patient needs, and improve overall efficiency. This allows hospitals to reduce waste, better manage staff, and make data-driven decisions to improve patient care.
+                Xponencial AI-driven tools help hospitals analyze data to optimize resource allocation, predict patient needs, and improve overall efficiency. This allows hospitals to reduce waste, better manage staff, and make data-driven decisions to improve patient care.
                 <ul className="list-disc md:pl-5 mt-2 text-[#2E4168]">
                     <li><strong>Predictive Analytics:</strong> Forecast patient admissions, inventory needs, and staff requirements based on historical data.</li>
                     <li><strong>Enhanced Decision Making:</strong> Use AI insights to enhance patient outcomes and hospital operations.</li>
@@ -47,7 +47,7 @@ const features = [
         title: "Seamless Integration with Labs and Pharmacies",
         description: (
             <>
-                With GudMed’s real-time digitization, prescriptions and lab orders are instantly sent to pharmacies and lab services. This reduces patient waiting times and ensures that hospitals and pharmacies can optimize their inventory based on real-time data.
+                With Xponencial real-time digitization, prescriptions and lab orders are instantly sent to pharmacies and lab services. This reduces patient waiting times and ensures that hospitals and pharmacies can optimize their inventory based on real-time data.
                 <ul className="list-disc md:pl-5 mt-2 mx-auto text-[#2E4168]">
                     <li><strong>Improved Pharmacy Sales:</strong> Direct integration with the pharmacy boosts sales by ensuring timely prescription fulfillment.</li>
                     <li><strong>Efficient Lab Operations:</strong> Patients receive lab test orders and results quickly, improving diagnostic timelines and reducing delays in treatment.</li>
@@ -60,7 +60,7 @@ const features = [
         title: "Post-Care Engagement and Automated Follow-Ups",
         description: (
             <>
-                GudMed ensures that hospitals stay connected with patients even after they leave. Automated follow-ups, reminders for medication, and appointment scheduling keep patients engaged and reduce readmissions.
+                Xponencial ensures that hospitals stay connected with patients even after they leave. Automated follow-ups, reminders for medication, and appointment scheduling keep patients engaged and reduce readmissions.
                 <ul className="list-disc mx-auto  md:pl-5 mt-2 text-[#2E4168]">
                     <li><strong>Automated Post-Care Reminders:</strong> Patients receive reminders for medication, follow-ups, and tests, ensuring treatment adherence.</li>
                     <li><strong>Better Patient Engagement:</strong> Continuous engagement with patients results in better compliance and satisfaction.</li>
@@ -76,7 +76,7 @@ const GudMedFeatures = () => {
     return (
         <section className="py-10 px-6 bg-white rounded-lg shadow-lg">
             <h3 className="md:text-4xl text-2xl font-semibold text-blue-900 text-center mb-8">
-                How <span className="text-[#2E4168] font-bold ">GudMed</span> Transforms Healthcare
+                How <span className="text-[#2E4168] font-bold ">Xponencial</span> Transforms Healthcare
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
                 {features.map((feature, index) => (

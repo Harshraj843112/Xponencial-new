@@ -32,32 +32,7 @@ const DoctorHome = () => {
             Your Clinic <br />
             <span className="text-[#2E4168] mt-10">Digitized In Your Way</span>
           </h2>
-          <div className="flex flex-row gap-4 justify-center md:justify-center sm:pl-4 ">
-  <a
-    href="https://doctor.gudmed.in/signin"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <button
-      className="w-full sm:w-auto px-10 py-5 md:px-16 md:py-6 text-white bg-[#2E4168] border border-blue-600 rounded-full shadow-lg hover:bg-[#2E4168] focus:outline-none transition-transform duration-300 hover:scale-105"
-      aria-label="Sign In"
-    >
-      Sign In
-    </button>
-  </a>
-  <a
-    href="https://doctor.gudmed.in/signup"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <button
-      className="w-full sm:w-auto px-10 py-5 md:px-16 md:py-6 text-blue-600 border border-blue-600 rounded-full shadow-lg hover:bg-[#2E4168] hover:text-white focus:outline-none transition-transform duration-300 hover:scale-105"
-      aria-label="Sign Up"
-    >
-      Sign Up
-    </button>
-  </a>
-</div>
+
 
         </div>
       </div>
@@ -67,11 +42,11 @@ const DoctorHome = () => {
         {/* Left: Features Content */}
         <div className="w-full md:w-1/2 text-center md:text-left  space-y-6">
           <p className="text-base sm:text-lg  md:mx-0 mx-auto text-gray-700 leading-relaxed max-w-screen-sm">
-            At GudMed, we empower doctors by streamlining patient management
+            At Xponencial, we empower doctors by streamlining patient management
             through cutting-edge technology. Our platform allows you to focus
             more on patient care and less on administrative tasks. With
             real-time prescription digitization, patient engagement tools, and
-            AI-powered operational support, GudMed helps you improve efficiency,
+            AI-powered operational support, Xponencial helps you improve efficiency,
             reduce errors, and offer a more personalized healthcare experience.
             Join us in revolutionizing healthcare with smarter solutions that
             make your practice run smoother and deliver better patient outcomes.

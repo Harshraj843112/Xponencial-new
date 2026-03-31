@@ -4,7 +4,7 @@ const PrivacyPolicy = () => {
   return (
     <div className="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-lg">
       <h2 className="text-2xl font-semibold mb-4 text-[#2E4168]">Who we are</h2>
-      <p className="mb-6">Our website address is: https://wyngsdigitalbusinesscards.com/gudmed.</p>
+      <p className="mb-6">Our website address is: https://www.xponencial.co</p>
 
       <h2 className="text-2xl font-semibold mb-4 text-[#2E4168]">Comments</h2>
       <p className="mb-4">When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.</p>

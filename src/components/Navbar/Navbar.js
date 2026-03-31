@@ -3,7 +3,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import NavList from "./NavList";
 import NavbarItem from "./NavbarItem";
 import NavbarDropdown from "./NavbarDropdown";
-import Logo from "../../img/Gudmed1.png";
+import Logo from "../../img/Logo.jpeg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -51,11 +51,11 @@ const Navbar = () => {
       <div className="bg-white shadow-md rounded-lg px-4 py-4 lg:px-12 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center flex-shrink-0">
-          <Link to="/" onClick={closeMobileMenu}>
+          <Link to="/" onClick={closeMobileMenu} className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-16 flex items-center">
             <img
               src={Logo || "https://via.placeholder.com/150"}
               alt="logo"
-              className="h-8 sm:h-10 md:h-12 lg:h-14 xl:h-16 w-auto"
+              className="w-48 sm:w-56 md:w-60 lg:w-64 xl:w-[300px] h-auto mix-blend-multiply -ml-2 sm:-ml-4 lg:-ml-6 xl:-ml-8"
             />
           </Link>
         </div>

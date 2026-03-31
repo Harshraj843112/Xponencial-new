@@ -22,9 +22,9 @@ const ServicesHome = lazy(() => import('./components/Services/ServicesHome'));
 const ContactInfoCard = lazy(() => import('./components/Contact/ContactInfoCard'));
 const ContactHome = lazy(() => import('./components/Contact/ContactHome'));
 const DoctorHome = lazy(() => import('./Doctor/DoctorHome'));
-const IPDHome = lazy(() => import('./IPD/IPD'));
+
 const OPDHome = lazy(() => import('./components/OPD/OPDHome'));
-const TeamHome = lazy(() => import('./components/Team/TeamHome'));
+
 const Patient = lazy(() => import('./components/Patient'));
 const TermsConditions = lazy(() => import('./components/TermsConditions'));
 const SarvodyaHospital = lazy(() => import('./components/SarvodyaHospital'))
@@ -37,13 +37,13 @@ export default function App() {
      <Suspense fallback={<Spinner />}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/hospital" element={<ForHospital />} />
+          <Route path="/clinics" element={<OPDHome />} />
           <Route path="/about" element={<AboutUsHome />} />
           <Route path="/services" element={<ServicesHome />} />
           <Route path="/contacts" element={<ContactHome />} />
-          <Route path="/team" element={<TeamHome />} />
+         
           <Route path="/doctors" element={<DoctorHome />} />
-          <Route path="/hospital/ipd" element={<IPDHome />} />
+    
           <Route path="/hospital/opd" element={<OPDHome />} />
           <Route path="/patients" element={<Patient />} />
           <Route path="/sarvodyahospital" element={<SarvodyaHospital />} />
