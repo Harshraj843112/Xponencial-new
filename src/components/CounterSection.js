@@ -10,23 +10,24 @@ const CounterSection = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
 
-  // Base values and increments
+  // Base values and increments (Set to 80% of original)
   const baseStats = {
-    prescriptionsServed: 250627,
-    hindiPrescriptionsServed: 17645,
-    doctorsWithUs: 1550,
-    happyPatients: 48000,
+    prescriptionsServed: 40502,
+    hindiPrescriptionsServed: 21000,
+    doctorsWithUs: 4500,
+    happyPatients: 6400,
   };
   const increments = {
-    prescriptionsServed: 1156,
-    hindiPrescriptionsServed: 369,
-    doctorsWithUs: 50,
-    happyPatients: 5000,
+    prescriptionsServed: 125,
+    hindiPrescriptionsServed: 100,
+    doctorsWithUs: 15,
+    happyPatients: 400,
   };
 
   // Function to get incremented stats on each visit
   const getIncrementedStats = () => {
-    const storedStats = JSON.parse(localStorage.getItem('stats')) || baseStats;
+    // Using a new key 'stats_v5' to reset the bloated numbers in local storage
+    const storedStats = JSON.parse(localStorage.getItem('stats_v5')) || baseStats;
 
     // Increment each stat by the defined amount
     const updatedStats = {
@@ -37,7 +38,7 @@ const CounterSection = () => {
     };
 
     // Save the updated stats back to local storage
-    localStorage.setItem('stats', JSON.stringify(updatedStats));
+    localStorage.setItem('stats_v5', JSON.stringify(updatedStats));
     return updatedStats;
   };
 
