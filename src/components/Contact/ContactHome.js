@@ -34,7 +34,7 @@ const ContactHome = () => (
           </h2>
           <hr className="border-t-2 w-12 border-[#2E4168] mb-6" />
           <iframe
-            src="https://www.google.com/maps?q=54/F25+Sec+7+Rohini+Delhi+110085&output=embed"
+            src="https://www.google.com/maps?q=Block+F,+54,+Pocket+25,+Sector-7,+Rohini,+New+Delhi,+Delhi,+110085&output=embed"
             width="100%"
             height="300"
             style={{ border: 0 }}
@@ -47,7 +47,7 @@ const ContactHome = () => (
           <div className="flex items-center space-x-4 mt-4">
             <i className="fas fa-map-marker-alt text-[#2E4168] text-lg"></i>
             <Link
-              to="https://maps.google.com/?q=54/F25+Sec+7+Rohini+Delhi+110085"
+              to="https://maps.google.com/?q=Block+F,+54,+Pocket+25,+Sector-7,+Rohini,+New+Delhi,+Delhi,+110085"
               className="text-lg text-[#2E4168] underline hover:text-[#2E4168] transition-colors duration-300"
             >
               View on Google Maps

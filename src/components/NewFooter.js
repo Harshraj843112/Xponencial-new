@@ -65,6 +65,13 @@ const NewFooter = () => {
                 <i className="fas fa-envelope text-xl mr-2"></i>
                 Email Us: Atul.tiwari@xponencial.co
               </a>
+
+              <div className="flex items-start justify-center lg:justify-end text-sm sm:text-base md:text-base w-full max-w-xs sm:max-w-sm lg:max-w-md">
+                <i className="fas fa-map-marker-alt text-lg sm:text-xl mt-1 mr-2 flex-shrink-0"></i>
+                <span className="text-left leading-snug">
+                  Block F, 54, Pocket 25, Sector-7, Rohini,<br className="hidden sm:block" /> New Delhi, North West Delhi, Delhi, 110085
+                </span>
+              </div>
             </div>
 
             {/* Social Icons */}
